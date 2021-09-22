@@ -10,13 +10,6 @@ import java.util.stream.IntStream;
 public class Draft {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        System.out.print(number + " =");
-        while(number%2==0){
-            System.out.print(" 2 *");
-            number/=2;
-        }
-        System.out.println(" " +number);
-
+        System.out.println(Integer.parseInt(String.valueOf('3')));
     }
 }
