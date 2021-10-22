@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+///fewafew
 public class ArtCanvasNode_22_06 extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
