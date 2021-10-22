@@ -1,4 +1,4 @@
-package ProblemSet02.ArtCanvasNode22_6;
+package ProblemSet02.ArtCanvasNode_22_06;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -14,7 +14,7 @@ import javafx.scene.shape.Shape;
 import java.util.Stack;
 
 
-public class ArtCanvasNode22_6_Controller {
+public class ArtCanvasNode_22_06_Controller {
     @FXML private RadioButton lineRadioButton;
     @FXML private RadioButton rectangleRadioButton;
     @FXML private RadioButton ovalRadioButton;
