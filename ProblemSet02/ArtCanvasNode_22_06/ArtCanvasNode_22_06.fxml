@@ -8,6 +8,7 @@
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -18,11 +19,11 @@
 
 <BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProblemSet02.ArtCanvasNode_22_06.ArtCanvasNode_22_06_Controller">
     <left>
-        <VBox maxHeight="1.7976931348623157E308" spacing="8.0" BorderPane.alignment="CENTER">
+        <VBox maxHeight="1.7976931348623157E308" prefHeight="584.0" prefWidth="143.0" spacing="8.0" BorderPane.alignment="CENTER">
             <children>
-                <TitledPane prefHeight="189.0" prefWidth="139.0" text="Shapes/Tools">
+                <TitledPane prefHeight="124.0" prefWidth="186.0" text="Shapes">
                     <content>
-                        <VBox prefHeight="135.0" prefWidth="137.0" spacing="8.0">
+                        <VBox prefHeight="131.0" prefWidth="184.0" spacing="8.0">
                             <children>
                                 <RadioButton fx:id="lineRadioButton" mnemonicParsing="false" selected="true" text="Line">
                                     <toggleGroup>
@@ -31,13 +32,21 @@
                                 </RadioButton>
                                 <RadioButton fx:id="rectangleRadioButton" mnemonicParsing="false" text="Rectangle" toggleGroup="$sizeToggleGroup" />
                                 <RadioButton fx:id="ovalRadioButton" mnemonicParsing="false" text="Oval" toggleGroup="$sizeToggleGroup" />
-                                <RadioButton fx:id="eraserRadioButton" mnemonicParsing="false" text="Eraser" toggleGroup="$sizeToggleGroup" />
-                                <RadioButton fx:id="deleteRadioButton" mnemonicParsing="false" text="Delete" toggleGroup="$sizeToggleGroup" />
-                                <RadioButton fx:id="moveRadioButton" mnemonicParsing="false" text="Move" toggleGroup="$sizeToggleGroup" />
                             </children>
                         </VBox>
                     </content>
                 </TitledPane>
+            <TitledPane animated="false" text="Tools">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="108.0" prefWidth="184.0">
+                     <children>
+                                <RadioButton fx:id="eraserRadioButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Eraser" toggleGroup="$sizeToggleGroup" />
+                                <RadioButton fx:id="deleteRadioButton" layoutX="14.0" layoutY="43.0" mnemonicParsing="false" text="Delete" toggleGroup="$sizeToggleGroup" />
+                                <RadioButton fx:id="moveRadioButton" layoutX="15.0" layoutY="73.0" mnemonicParsing="false" text="Move" toggleGroup="$sizeToggleGroup" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
                 <GridPane prefHeight="119.0" prefWidth="29.0">
                     <columnConstraints>
                         <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="51.0" minWidth="10.0" prefWidth="26.0" />
