@@ -1,2 +1,4 @@
-package ProblemSet02.Random2DDynamicArtCanvasAnimationTimer_22_8.ProblemSet02;public class Random2DDynamicArtCanvasAnimationTimer_22_8 {
+package ProblemSet02.Random2DDynamicArtCanvasAnimationTimer_22_8;
+
+public class Random2DDynamicArtCanvasAnimationTimer_22_8 {
 }

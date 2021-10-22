@@ -8,7 +8,7 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
+            fx:controller="ProblemSet02.Random2DDynamicArtShapesSceneGraphAnimationTimers_22_9.Random2DDynamicArtShapesSceneGraphAnimationTimers229"
+            prefHeight="400.0" prefWidth="600.0">
 
 </AnchorPane>

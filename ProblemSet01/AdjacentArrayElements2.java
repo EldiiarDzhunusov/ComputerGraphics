@@ -1,6 +1,5 @@
-package Week1;
+package ProblemSet01;
 
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 

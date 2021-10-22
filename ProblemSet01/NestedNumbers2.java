@@ -1,4 +1,4 @@
-package Week1;
+package ProblemSet01;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
